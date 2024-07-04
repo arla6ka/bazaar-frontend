@@ -79,7 +79,7 @@ export default function Home() {
 
   const handleSearch = (query: string) => {
     setLoading(true);
-    fetch('http://localhost:5000/api/search', {
+    fetch('https://bazaar-backendtop.onrender.com/api/search', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
